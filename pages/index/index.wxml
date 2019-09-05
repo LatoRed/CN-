@@ -1,0 +1,100 @@
+<!--index.wxml-->
+<i-notice-bar icon="systemprompt" loop>
+    勇者本质竟是扭蛋角色？！班卓熊准备参战！
+</i-notice-bar>
+
+<i-grid class="first">
+    <i-grid-item bindtap="map">
+        <view class="maliao">
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+
+    <i-grid-item bindtap="map">
+        <view class="maliao">
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>   
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+</i-grid>
+
+<i-grid class="first">
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+</i-grid>
+
+<i-grid class="first">
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+
+    <i-grid-item bindtap="map">
+        <view class="maliao">      
+  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
+  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+        </view>
+        <a class="contact-num" href="javascript:void(0);">马里欧</a>
+    </i-grid-item>
+
+</i-grid>
+
+
+<i-page current="{{ current }}" total="8" mode="pointer" bind:change="Change"></i-page>
+
+<i-tab-bar current="{{ current }}" color="#f759ab" bindchange="handleChange">
+    <i-tab-bar-item key="homepage" icon="flashlight" current-icon="flashlight_fill" title="斗士"></i-tab-bar-item>
+    <i-tab-bar-item key="group" icon="document" current-icon="document_fill" title="攻略"></i-tab-bar-item>
+    <i-tab-bar-item key="remind" icon="more" current-icon="switch" title="其他"></i-tab-bar-item>
+</i-tab-bar>
+

@@ -1,0 +1,42 @@
+<!--pages/smash/smash.wxml-->
+<i-card title="马里奥" extra="任天堂明星大乱斗SP" full="Boolean" thumb="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png">
+</i-card>
+<view class="caption-wrap">
+    
+    <i-collapse name="{{name}}">
+        <i-collapse-item title="角色介绍" name="name1">
+            <view slot="content">
+                马里奥是站在游戏界顶峰的超人气多面角色。马里奥靠吃蘑菇成长，特征是大鼻子、头戴帽子、身穿背带裤、还留着胡子。与他的双胞胎兄弟路易基一起，长年担任任天堂的招牌角色。
+            </view>
+        </i-collapse-item>    
+    </i-collapse>
+</view>
+
+<i-panel title="">
+    <view style="padding: 15rpx;">
+<button class='getCodeView firstListLineStyle' disabled='{{disabled}}'>
+体重一般
+</button>
+
+
+
+</view>
+</i-panel>
+
+<view class="progress-item">
+    <text class="tg">weight</text>
+    <i-progress percent="55" hide-info status="active" stroke-width="15"></i-progress>
+    <text class="sg">height</text>
+    <i-progress percent="40" hide-info status="active" stroke-width="15"></i-progress>
+    <text class="gj">attack</text>
+    <i-progress percent="47" hide-info status="active" stroke-width="15"></i-progress>
+    <text class="fy">defense</text>
+    <i-progress percent="90" hide-info  status="active" stroke-width="15"></i-progress>   
+</view>
+
+
+<view>
+<canvas canvas-id="radarCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+</view>
+
+
