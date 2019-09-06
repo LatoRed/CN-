@@ -1,0 +1,14 @@
+/**index.wxss**/
+.first{
+font-size:15px;
+text-align: center;
+word-break:keep-all;
+   /*第一行格式*/
+}
+.maliao button{
+  width: 90rpx;
+  height: 100rpx;
+  border: none;
+  padding: 0; /*图片偏移距离*/
+}
+

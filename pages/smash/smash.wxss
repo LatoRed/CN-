@@ -1,0 +1,28 @@
+/* pages/smash/smash.wxss */
+.tg{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.sg{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.gj{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.fy{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.getCodeView { 
+width: 150rpx;
+margin-left: 20rpx;  /*把按钮往左靠*/
+height: 50rpx;
+line-height: 60rpx;
+background: rgb(255, 0, 0);
+color:#ffffff;
+font-size: 25rpx;   /*文字大小*/
+font-weight:bold;  
+display: flex;  /*把文字居中*/
+flex-direction: column;  /*把文字居中*/
+justify-content: center;  /*把文字居中*/
+align-items: center;   /*把文字居中*/
+}
+
