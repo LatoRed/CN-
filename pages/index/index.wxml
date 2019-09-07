@@ -90,10 +90,10 @@
 </i-grid>
 
 
-<i-page current="{{ current }}" total="8" mode="pointer" bind:change="Change"></i-page>
+
 
 <i-tab-bar current="{{ current }}" color="#f759ab" bindchange="handleChange">
-    <i-tab-bar-item key="homepage" icon="flashlight" current-icon="flashlight_fill" title="斗士"></i-tab-bar-item>
+    <i-tab-bar-item key="homepage" icon="flashlight" current-icon="flashlight_fill" title="斗士" ></i-tab-bar-item>
     <i-tab-bar-item key="group" icon="document" current-icon="document_fill" title="攻略"></i-tab-bar-item>
     <i-tab-bar-item key="remind" icon="more" current-icon="switch" title="其他"></i-tab-bar-item>
 </i-tab-bar>

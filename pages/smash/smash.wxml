@@ -12,16 +12,13 @@
     </i-collapse>
 </view>
 
-<i-panel title="">
-    <view style="padding: 15rpx;">
-<button class='getCodeView firstListLineStyle' disabled='{{disabled}}'>
-体重一般
-</button>
 
-
-
+<view class="flex-wrp" style="padding: 15rpx;">
+<button class='getCodeView firstListLineStyle' disabled='{{disabled}}'>体重一般</button>
 </view>
-</i-panel>
+
+
+
 
 <view class="progress-item">
     <text class="tg">weight</text>
@@ -38,5 +35,4 @@
 <view>
 <canvas canvas-id="radarCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
 </view>
-
 

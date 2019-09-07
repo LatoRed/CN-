@@ -2,10 +2,20 @@
 //获取应用实例
 const app = getApp()
 Page({
+
+onShareAppMessage: function () {
+
+return {
+title: '任天堂明星大乱斗全角色攻略',
+desc: '这是一款快速带领新人入门与多种攻略的小程序',
+path: '/page/user?id=123'
+}    //分享功能
+},
+
   map: function () {
-    wx.navigateTo({
-      url: '../smash/smash'
-    })
+  wx.navigateTo({
+  url: '../smash/smash'
+  })
   },           //跳转到smash页面
 
    data: {

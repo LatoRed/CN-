@@ -1,4 +1,8 @@
 /* pages/smash/smash.wxss */
+page{
+   height: 100%;
+   width: 100%;
+}
 .tg{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -20,9 +24,13 @@ background: rgb(255, 0, 0);
 color:#ffffff;
 font-size: 25rpx;   /*文字大小*/
 font-weight:bold;  
-display: flex;  /*把文字居中*/
-flex-direction: column;  /*把文字居中*/
+display: flex;  
+flex-direction: column;  
 justify-content: center;  /*把文字居中*/
 align-items: center;   /*把文字居中*/
+}
+.flex-wrp{
+  flex-direction: row;
+
 }
 
