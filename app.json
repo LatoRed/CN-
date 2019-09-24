@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/smash/smash",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/smash/smash"
+    
+    
     
   ],
   "window": {

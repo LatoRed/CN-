@@ -1,9 +1,15 @@
 /* pages/smash/smash.wxss */
+.maliao button{
+  width: 100rpx;
+  height: 100rpx;
+  border: none;
+  padding: 0; /*图片偏移距离*/
+}
 page{
    height: 100%;
    width: 100%;
 }
-.tg{
+.tz{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .sg{
@@ -16,7 +22,7 @@ page{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .getCodeView { 
-width: 150rpx;
+width: 145rpx;
 margin-left: 20rpx;  /*把按钮往左靠*/
 height: 50rpx;
 line-height: 60rpx;
@@ -24,13 +30,71 @@ background: rgb(255, 0, 0);
 color:#ffffff;
 font-size: 25rpx;   /*文字大小*/
 font-weight:bold;  
-display: flex;  
-flex-direction: column;  
+display: flex;
+flex-direction: column; 
 justify-content: center;  /*把文字居中*/
 align-items: center;   /*把文字居中*/
 }
-.flex-wrp{
-  flex-direction: row;
 
+.jianju{
+line-height: 159rpx;
+text-indent: 50rpx
 }
 
+.margin {
+border-bottom: 3rpx outset rgb(2, 255, 213);
+margin: 10rpx;
+flex-direction: row;
+display: flex;
+line-height: 60rpx;
+}
+
+.left {
+font-family: "黑体";
+color: rgb(255, 7, 7);
+font-style: oblique
+}
+
+.right {
+color: #ff0000;
+font-style: oblique
+}
+
+
+.swiper{
+   height: 300rpx; /*滑动swiper的高度*/
+}
+
+.back{ 
+  width: 300rpx;  
+  height: 300rpx;
+  border-radius: 10rpx;  /*滑动swiper和图片的圆角*/
+}
+
+.center {
+  display: flex;
+  justify-content: center;  /*swiper盒子居中对齐*/
+  align-items: center; /*flex元素交叉轴居中对齐*/
+}
+
+.swiper-tab{
+    width: 100%;    /*tab选项卡样式*/
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 190rpx;
+    line-height: 300rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.swiper-tab-item{
+    width: 30%;   
+    color:#434343;
+}
+.active{
+    color:#F65959;
+    border-bottom: 4rpx solid #F65959;
+}
+swiper{
+  text-align: center;
+}

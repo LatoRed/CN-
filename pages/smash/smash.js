@@ -6,7 +6,50 @@ Page({
   data: {
     percent: 0,
     status: 'normal',
-    switch1: false
+    plain: true,
+    switch1: false,
+    testtrue: true,
+    currentTab: 0,
+    imageUrls: [
+      { src: "https://www.smashbros.com/assets_v2/img/fighter/mario/main.png" },
+      { src: 'https://www.smashbros.com/assets_v2/img/fighter/mario/main.png' },
+      { src: 'https://www.smashbros.com/assets_v2/img/fighter/mario/main.png' },
+      { src: 'https://www.smashbros.com/assets_v2/img/fighter/mario/main.png' },
+      { src: 'https://www.smashbros.com/assets_v2/img/fighter/mario/main.png' },
+      { src: 'https://www.smashbros.com/assets_v2/img/fighter/mario/main.png' },
+    ],
+
+    swipclick: function () {
+      wx.navigateTo({
+        url: '../smash/smash'
+      })
+    },
+    //轮播图的切换事件
+    swiperChange: function (e) {
+      this.setData({
+        swiperCurrent: e.detail.current
+      })
+    },
+
+    //点击指示点切换事件
+    chuangEvent: function (e) {
+      this.setData({
+        swiperCurrent: e.currentTarget.id
+      })
+    },
+
+    //点击图片触发事件
+    swipclick: function (e) {
+      console.log(this.data.swiperCurrent);
+      wx.switchTab({
+        url: this.data.links[this.data.swiperCurrent]
+      })
+    },
+  },
+
+  btnClick: function () {
+  var isShow = this.data.testtrue;
+  this.setData({ testtrue: !isShow })
   },
 
   onChange(event) {
@@ -62,5 +105,26 @@ Page({
       percent: this.data.percent - 10,
       status: 'normal'
     });
-  }
+  },
+
+  onLoad: function (options) {
+    // 页面初始化 options为页面跳转所带来的参数
+  },
+  //滑动切换
+  swiperTab: function (e) {
+    var that = this;
+    that.setData({
+      currentTab: e.detail.current
+    });
+  },
+  //点击切换
+  clickTab: function (e) {
+    var that = this;
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      that.setData({
+        currentTab: e.target.dataset.current
+      })
+    }}
 });

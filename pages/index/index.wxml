@@ -6,8 +6,8 @@
 <i-grid class="first">
     <i-grid-item bindtap="map">
         <view class="maliao">
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#while;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -15,8 +15,8 @@
 
     <i-grid-item bindtap="map">
         <view class="maliao">
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>   
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>   
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -24,8 +24,8 @@
 
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -34,8 +34,8 @@
 <i-grid class="first">
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -43,8 +43,8 @@
 
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -52,8 +52,8 @@
 
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -63,8 +63,8 @@
 <i-grid class="first">
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -72,8 +72,8 @@
 
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
@@ -81,8 +81,8 @@
 
     <i-grid-item bindtap="map">
         <view class="maliao">      
-  <button hover-class="none" style="width: 150rpx; height: 150rpx;">
-  <image style="width: 150rpx; height: 150rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
+  <button hover-class="none" style="width: 170rpx; height: 170rpx;">
+  <image style="width: 170rpx; height: 170rpx; background-color:#E7E8ED;"          src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"/></button>    
         </view>
         <a class="contact-num" href="javascript:void(0);">马里欧</a>
     </i-grid-item>
